@@ -1,0 +1,37 @@
+.header {
+  height: 215px;  
+}
+.header-section {
+  display: flex;
+  gap: 15%;
+  &__logo-area {
+    width: 35%;
+  }
+  &__menu {
+    &__list {
+      display: flex;
+      gap: 20%;
+    }
+  }
+  &__company-menu {
+    &__area {
+      height: 50px;
+    }
+    &__item {
+      font-size: 20px;
+    }
+  }
+  &__service-menu {
+    &__area {
+      height: 50px;
+    }
+    &__item {
+      font-size: 35px;
+      font-weight: 700;
+    }
+  }
+
+  
+
+
+}

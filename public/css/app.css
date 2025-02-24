@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 12px;
+  color: #333333;
+  font-family: "Roboto", "Noto Sans JP", sans-serif;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+  transition: opacity 0.3s;
+}
+a:hover {
+  opacity: 0.7;
+}
+
+li {
+  list-style: none;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.inner {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.line-break {
+  display: inline-block;
+}
+@media (max-width: 767px) {
+  .line-break {
+    display: block;
+    line-height: 1.5;
+    margin-top: 10px;
+  }
+}
+
+.pc-only {
+  display: block;
+}
+@media (max-width: 767px) {
+  .pc-only {
+    display: none;
+  }
+}
+
+.sp-only {
+  display: none;
+}
+@media (max-width: 767px) {
+  .sp-only {
+    display: block;
+  }
+}
+
+.header {
+  height: 215px;
+}
+
+.header-section {
+  display: flex;
+  gap: 15%;
+}
+.header-section__logo-area {
+  width: 35%;
+}
+.header-section__menu__list {
+  display: flex;
+  gap: 20%;
+}
+.header-section__company-menu__area {
+  height: 50px;
+}
+.header-section__company-menu__item {
+  font-size: 20px;
+}
+.header-section__service-menu__area {
+  height: 50px;
+}
+.header-section__service-menu__item {
+  font-size: 35px;
+  font-weight: 700;
+}
