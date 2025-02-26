@@ -1,33 +1,59 @@
+@use '../init' as *;
+
 .header {
-  height: 215px;  
+  height: 80px;  
 }
 .header-section {
   display: flex;
-  gap: 15%;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
   &__logo-area {
-    width: 35%;
+    img {
+      height: 80px;
+      width: auto;
+    }
+  }
+  &__logo-item {
+    margin-left: 20px;
   }
   &__menu {
-    &__list {
-      display: flex;
-      gap: 20%;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    margin-right: 20px;
   }
   &__company-menu {
     &__area {
-      height: 50px;
+      height: 30px;
+    }
+    &__list {
+      display: flex;
+      justify-content: flex-end;
+      gap: 15%;
     }
     &__item {
-      font-size: 20px;
+      font-size: 18px;
+      margin-top: 10px;
     }
   }
   &__service-menu {
     &__area {
-      height: 50px;
+      height: 60px;
+    }
+    &__list {
+      display: flex;
+      justify-content: flex-end;
+      gap: 15%;
     }
     &__item {
-      font-size: 35px;
+      font-size: 28px;
       font-weight: 700;
+      margin: auto 0 10px 0;
+      @include sp {
+        font-size: 50px;
+      }  
     }
   }
 
