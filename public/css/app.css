@@ -117,3 +117,26 @@ li {
     font-size: 50px;
   }
 }
+
+.footer {
+  height: 300px;
+  background-color: rgba(155, 123, 108, 0.5);
+}
+.footer .footer-image {
+  text-align: center;
+  padding-top: 40px;
+}
+.footer__sns-list {
+  display: flex;
+  gap: 50px;
+  margin: 20px 0;
+}
+.footer__sns-list__item img {
+  width: 20px;
+  height: 20px;
+}
+.footer__menu-list {
+  display: flex;
+  gap: 30px;
+  font-size: 14px;
+}
