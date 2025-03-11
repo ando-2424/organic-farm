@@ -9,6 +9,7 @@
   }
   &__sns-list {
     display: flex;
+    justify-content: center;
     gap: 50px;
     margin: 20px 0;
     &__item {
@@ -20,6 +21,7 @@
   }
   &__menu-list {
     display: flex;
+    justify-content: center;
     gap: 30px;
     font-size: 14px;
   }
